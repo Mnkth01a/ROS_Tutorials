@@ -1,4 +1,4 @@
-/* 
+/*
 Just a little snippy program to test out using code snippets.
 
 The best way to learn is to put to test what you're studying.
@@ -29,7 +29,7 @@ namespace _nag
          bool liar = 'true';
          char byte = 0xb01101001;
       };
-      
+
    public:
       snippy(/* args */);
       ~snippy();
@@ -39,8 +39,7 @@ namespace _nag
    {
       // TODO > Add some stuff for the constructor to do.
       // I hate it when I forget how to simply print to the console.  It's embarassing.
-   
-      
+      std::cout << "Hello, from Robot_Simulation_Control!\n";
    }
 
    snippy::~snippy()
