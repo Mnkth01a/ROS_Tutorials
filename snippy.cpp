@@ -33,6 +33,7 @@ namespace _nag
 
    public:
       snippy(/* args */);
+      snippy(int n, char a);
       ~snippy();
    };
 
@@ -47,10 +48,15 @@ namespace _nag
       cin >> firstname;
 
       string lastname;
-      cout<<"Hello, "<<firstname<<" what's your last name? ";
-      cin>>lastname;
+      cout << "Hello, " << firstname << " what's your last name? ";
+      cin >> lastname;
 
-      cout<<"First name length: "<<firstname.length<<"Last name size: "<<lastname.size;
+      cout << "First name length: " << firstname.length() << "Last name size: " << lastname.size();
+   }
+
+   snippy::snippy(int n, char a)
+   {
+      // This is an overloaded construct
    }
 
    snippy::~snippy()
