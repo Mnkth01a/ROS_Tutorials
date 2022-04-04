@@ -23,10 +23,10 @@ namespace _nag
    {
    private:
       /* data */
-      unsigned char abc = 0xffff;
+      unsigned char abc = 0xffffffff;
       bool liar = true;
       u_char bit_flags = 0b11111111;
-      
+
    public:
       snippy(/* args */);
       snippy(int n, char a);
