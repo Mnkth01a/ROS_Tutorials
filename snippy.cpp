@@ -23,7 +23,6 @@ namespace _nag
    {
    private:
       /* data */
-      char abc = 0xff;
       bool liar = true;
       u_char bit_flags = 0b11111111;
 
