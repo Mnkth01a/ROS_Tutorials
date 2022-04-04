@@ -23,13 +23,10 @@ namespace _nag
    {
    private:
       /* data */
-      struct _snippy
-      {
-         /* data */
-         int jhop = 1;
-         bool liar = 'true';
-         char byte = 0xb01101001;
-      };
+      unsigned char abc = 0b11111111;
+      bool liar = true;
+      u_char bit_flags = 0xffff;
+
 
    public:
       snippy(/* args */);
